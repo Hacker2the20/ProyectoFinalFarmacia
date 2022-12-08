@@ -1,0 +1,26 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Proyecto que prueba llamadas a API con Chai HTTP",
+  "main": "nodemon index.js",
+  "scripts": {
+    "test": "mocha test/*.js --timeout 15000",
+    "start": "node server.js"
+  },
+  "author": "Nicolas Cordero",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^3.0.0",
+    "restify": "^4.3.0",
+    "restify-cookies": "^0.2.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "dependencies": {
+    "mocha": "^10.1.0",
+    "nodemon": "^2.0.20"
+  }
+}
